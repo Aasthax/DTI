@@ -1,0 +1,42 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Add the ZeroHate text style */
+.zeroHate {
+  position: absolute;
+  bottom: 10px; /* Adjust the distance from the bottom */
+  right: 10px; /* Adjust the distance from the right */
+  font-size: 27px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Add or update this CSS in your index.css */
+.contact-us {
+  position: absolute;
+  bottom: 10px; /* Adjust the distance from the bottom */
+  left: 10px; /* Adjust the distance from the left */
+}
+
+/* Add or update this CSS in your index.css */
+input[type="email"],
+input[type="password"] {
+  border-radius: 9999px; /* Adjust the border-radius to make it round */
+  background-color: white; /* Set the background color to white */
+  color: black; 
+}
